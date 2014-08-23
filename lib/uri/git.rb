@@ -1,7 +1,10 @@
-require "uri/git/version"
+require 'uri/git/version'
+require 'uri'
 
-module Uri
-  module Git
-    # Your code goes here...
+module URI
+  class Git < Generic
+    DEFAULT_PORT = 9418
   end
+
+  @@schemes['GIT'] = Git
 end

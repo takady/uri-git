@@ -1,5 +1,5 @@
 # URI::Git
-[![Build Status](https://travis-ci.org/takady/uri-git.svg?branch=master)](https://travis-ci.org/takady/uri-git)
+[![Build Status](https://travis-ci.org/takady/uri-git.svg?branch=master)](https://travis-ci.org/takady/uri-git)  
 An URI scheme handler for git:// protocol
 
 ## Installation
